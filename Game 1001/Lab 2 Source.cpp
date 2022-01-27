@@ -33,6 +33,3 @@ int main()
 
     return 0;
 }
-//The sum of1.1, 2.2and3.3is:6.6
-//The product of1.1, 2.2and3.3is : 7.986
-//The average of1.1, 2.2and3.3is : 2.2

@@ -14,6 +14,8 @@ using namespace std;
 
 int main()
 {
+    //This section of code is prompting the user to enter their chosen numbers.
+    //Important to note that the variables below are all listed as doubles - because they are decimals - to avoid demotions.
     double number1, number2, number3, sum, product, average;
     cout << "Please enter a number of your choice for your 1st number: ";
     cin >> number1;
@@ -23,10 +25,12 @@ int main()
     cin >> number3;
     cout << "\n";
 
+    //This is calculating the numbers the user has entered above.
     sum = number1 + number2 + number3;
     product = number1 * number2 * number3;
     average = (number1 + number2 + number3) / 3;
 
+    //Lists the sum, product, and average of said numbers the user has entered.
     cout << "The sum of " << number1 << ", " << number2 << " and " << number3 << " is: " << sum << "\n";
     cout << "The product of " << number1 << ", " << number2 << " and " << number3 << " is: " << product << "\n";
     cout << "The average of " << number1 << ", " << number2 << " and " << number3 << " is: " << average << "\n";

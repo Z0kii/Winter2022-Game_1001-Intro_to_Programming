@@ -11,24 +11,24 @@ NOTE: A haiku has a 5 - 7 - 5 syllable structure. First line has 5 syllables, se
 Submit  2 .cpp files called  OutputHaiku.cpp and  InputHaiku.cpp.
 */
 
-#include <iostream>
-#include <fstream>
-
-using namespace std;
-
-int main()
-{
-	ofstream inputHaikuFile;
-	inputHaikuFile.open("haiku.txt");
-
-	inputHaikuFile << "Games are really cool!\n";
-	inputHaikuFile << "They are really fun to play.\n";
-	inputHaikuFile << "I like playing games.\n";
-
-	inputHaikuFile.close();
-	
-	cout << "Done!";
-
-	return 0;
-
-}
+//#include <iostream>
+//#include <fstream>
+//
+//using namespace std;
+//
+//int main()
+//{
+//	cout << "Writing Haiku!\n";
+//	ofstream inputHaikuFile;
+//	inputHaikuFile.open("haiku.txt");
+//
+//	inputHaikuFile << "Games are really cool!\n";
+//	inputHaikuFile << "They are really fun to play.\n";
+//	inputHaikuFile << "I like playing games.\n";
+//
+//	inputHaikuFile.close();
+//	
+//	cout << "\nHaiku has been sucessfully written, run OutputHaiku.cpp to see what it says!\n";
+//
+//	return 0;
+//}

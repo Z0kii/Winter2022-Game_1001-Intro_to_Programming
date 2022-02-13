@@ -57,15 +57,75 @@ using namespace std;
 
 int main()
 {
+	char userChoice;
+	char computerChoice;
 	string username;
 	ofstream rockPaperScissorsFile;
+
 		
-	cout << "Welcome to my Rock, Paper, Scissors game. To begin, please enter your username below:";
+	cout << "Welcome to my Rock, Paper, Scissors game!\nTo begin, please enter your username below:\n";
 	cin >> username;
 
+	cout << "Welcome " << username << "!\n";
+	cout << "\nTime to start playing!\n";
+	cout << "Enter 'R' for rock\nEnter 'P' for paper\nEnter 'S' for scissors\n";
+	cin >> userChoice;
+
+	srand(time(NULL));
+	int num = rand() % 3 + 1;
+	if (num == 1)
+	{
+		computerChoice = 'R';
+	}
+	if (num == 2) 
+	{
+		computerChoice = 'R';
+	}
+	if (num == 3) 
+	{ 
+		computerChoice = 'R';
+	}
+	
 	rockPaperScissorsFile.open(username + ".txt");
 
-
+	if (userChoice == 'R' && computerChoice == 'S')
+	{
+		cout << "You played rock, computer played scissors!\n";
+		cout << "Rock smashes scissors!\n" << username << " wins!\n";
+	}
+	else if (userChoice == 'P' && computerChoice == 'R')
+	{
+		cout << "You played paper, computer played rock!\n";
+		cout << "Paper wraps rock!\n" << username << " wins!\n";
+	}
+	else if (userChoice == 'S' && computerChoice == 'P')
+	{
+		cout << "You played scissors, computer played paper!\n";
+		cout << "Scissors cuts paper!\n" << username << " wins!\n";
+	}
+	else if (computerChoice == 'R' && userChoice == 'S')
+	{
+		cout << "You played scissors, computer played rock!\n";
+		cout << "Rock smashes scissors!\n";
+		cout << username << " loses!\n";
+	}
+	else if (computerChoice == 'P' && userChoice == 'R')
+	{
+		cout << "You played rock, computer played paper!\n";
+		cout << "Paper wraps rock!\n";
+		cout << username << " loses!\n";
+	}
+	else if (computerChoice == 'S' && userChoice == 'P')
+	{
+		cout << "You played paper, computer played scissors!\n";
+		cout << "Scissors cuts paper!\n";
+		cout << username << " loses!\n";
+	}
+	else
+	{
+		cout << "You both played the same move! It's a tie!";
+	}
+	
 
 
 	return 0;

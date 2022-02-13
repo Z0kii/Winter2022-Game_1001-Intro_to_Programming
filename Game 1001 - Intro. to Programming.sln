@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 4", "Week 4\Week 4.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 5", "Week 5\Week 5.vcxproj", "{7E0BEFFC-83D2-439C-ABAD-1641A9D13398}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rock Paper Scissors Game", "Rock Paper Scissors Game\Rock Paper Scissors Game.vcxproj", "{6712939B-13CA-4B41-BA58-D464FFF68699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{7E0BEFFC-83D2-439C-ABAD-1641A9D13398}.Release|x64.Build.0 = Release|x64
 		{7E0BEFFC-83D2-439C-ABAD-1641A9D13398}.Release|x86.ActiveCfg = Release|Win32
 		{7E0BEFFC-83D2-439C-ABAD-1641A9D13398}.Release|x86.Build.0 = Release|Win32
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Debug|x64.ActiveCfg = Debug|x64
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Debug|x64.Build.0 = Debug|x64
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Debug|x86.ActiveCfg = Debug|Win32
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Debug|x86.Build.0 = Debug|Win32
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Release|x64.ActiveCfg = Release|x64
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Release|x64.Build.0 = Release|x64
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Release|x86.ActiveCfg = Release|Win32
+		{6712939B-13CA-4B41-BA58-D464FFF68699}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

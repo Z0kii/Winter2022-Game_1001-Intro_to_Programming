@@ -55,10 +55,6 @@ int main()
         {
             cout << digitsEntered[i] << endl;
         }
-        else
-        {
-            break;
-        }
     }
    
     cout << "These are the digits that are greater than the average: " << average << endl;

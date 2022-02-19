@@ -1,0 +1,27 @@
+New playthrough started!
+Round 1:
+Zoki played rock, computer played rock! It's a tie!
+The score is: 
+Zoki 0
+Computer 0
+
+Round 2:
+Zoki played paper, computer played paper! It's a tie!
+The score is: 
+Zoki 0
+Computer 0
+
+Round 3:
+Zoki played scissors, computer played paper! Zoki wins!
+The score is: 
+Zoki 1
+Computer 0
+
+New playthrough started!
+Round 1:
+Computer played paper, Zoki played rock! Zoki loses!
+The score is: 
+Zoki 0
+Computer 1
+
+--- New playthrough started! ---

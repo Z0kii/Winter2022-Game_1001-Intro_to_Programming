@@ -69,14 +69,21 @@ int main()
 	cin >> username;
 
 	cout << "Welcome " << username << "!\n";
-	rockPaperScissorsFile.open(username + ".txt"); 
+	rockPaperScissorsFile.open(username + ".txt", ios_base::app); /* 
+																  The use of "ios_base::app" was something I learned via Google, 
+																  with teaching from close friends of mine who are very proficient in C++.
+																  I don't recall if we learned it in class,
+																  but it appends the game's stats so you can look back on your previous game sessions.
+																  */ 
+	
+	rockPaperScissorsFile << "--- New playthrough started! ---\n"; // This outputs to the .txt file so a user can track the stats of each time they launch the program.
 
 	do {
 		cout << "\nTime to start playing!\n";
 		cout << "Enter 'R' for rock\nEnter 'P' for paper\nEnter 'S' for scissors\n";
 		cin >> userChoice;
 
-		srand(time(NULL));
+		srand(time(NULL));			// This section of the code randomizes the computer's move
 		int num = rand() % 3 + 1;
 		if (num == 1)
 		{
@@ -88,7 +95,7 @@ int main()
 		}
 		if (num == 3)
 		{
-			computerChoice = 'S';
+			computerChoice = 'S'; 
 		}
 
 		if (userChoice == 'R' && computerChoice == 'S') // Computer plays scissors, User plays rock - USER WINS
@@ -194,19 +201,18 @@ int main()
 			rockPaperScissorsFile << endl;
 		}
 
-		//add a Y/N prompt to restart game here
+		//Prompts the user to restart the game with a Y/N input, as well as checking for an invalid input..
 		cout << "Good game! Your gameplay stats have been saved to the file " << username << ".txt\n" << "If you would like to play another round, please enter 'Y' If not, enter 'N'\n";
 		cin >> restartChoice;
 		while (restartChoice != 'Y' && restartChoice != 'N')
 		{
-			"Incorrect input! Please enter Y or N to play again.\n";
+			cout << "Incorrect input! Please enter Y or N to play again.\n";
 			cin >> restartChoice;
 		}
 
 	} while (restartChoice == 'Y');
 
-rockPaperScissorsFile.close();
-
-
-return 0;
+rockPaperScissorsFile.close(); // Close the file at the end as usual
+return 0; // As always, return 0.
 }
+// That's it!

@@ -22,8 +22,8 @@ double celsius(double); // Prototype the function that converts F to C.
 
 int main()
 {
-    cout << "Now displaying all Celsius equivalents between -20 & 100 Fahrenheit.\n";
-    cout << "Fahrenheit is displayed on the left, with it's Celsius equivalent on the right.\n";
+    cout << "Now displaying all Celsius equivalents between -20 & 100 degrees Fahrenheit.\n";
+    cout << "Fahrenheit is displayed on the left, with its Celsius equivalent on the right.\n";
     cout << endl;
 
     for (int fahrenheitTemp = -20; fahrenheitTemp <= 100; fahrenheitTemp += 1)

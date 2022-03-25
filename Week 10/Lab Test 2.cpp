@@ -8,7 +8,7 @@ For each number that’s read, your program should display the same number of adja
 For example, if your program reads the number 7, it should display *******.
 Display the bars of asterisks after you read all five numbers.
 */
-//
+
 //#include <iostream>
 //using namespace std;
 //
@@ -37,4 +37,4 @@ Display the bars of asterisks after you read all five numbers.
 //        }
 //        cout << endl;
 //    }
-//}
+//};

@@ -1,7 +1,7 @@
 #include "Rectangle.h"
 using namespace std;
 
-Rectangle::Rectangle() // Rectangle 1
+Rectangle::Rectangle() // Relates to Rectangle 1
 {
 	double l;
 	double w;

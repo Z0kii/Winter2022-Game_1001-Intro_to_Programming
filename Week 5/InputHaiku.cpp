@@ -16,19 +16,19 @@
 
 using namespace std;
 
-int main()
-{
-	cout << "Writing Haiku!\n";
-	ofstream inputHaikuFile;
-	inputHaikuFile.open("haiku.txt");
-
-	inputHaikuFile << "Games are really cool!\n";
-	inputHaikuFile << "They are really fun to play.\n";
-	inputHaikuFile << "I like playing games.\n";
-
-	inputHaikuFile.close();
-	
-	cout << "\nHaiku has been sucessfully written, run OutputHaiku.cpp to see what it says!\n";
-
-	return 0;
-}
+//int main()
+//{
+//	cout << "Writing Haiku!\n";
+//	ofstream inputHaikuFile;
+//	inputHaikuFile.open("haiku.txt");
+//
+//	inputHaikuFile << "Games are really cool!\n";
+//	inputHaikuFile << "They are really fun to play.\n";
+//	inputHaikuFile << "I like playing games.\n";
+//
+//	inputHaikuFile.close();
+//	
+//	cout << "\nHaiku has been sucessfully written, run OutputHaiku.cpp to see what it says!\n";
+//
+//	return 0;
+//}

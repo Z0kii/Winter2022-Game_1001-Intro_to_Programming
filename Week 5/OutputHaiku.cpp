@@ -19,30 +19,30 @@ Submit 2 .cpp files called OutputHaiku.cpp and InputHaiku.cpp.
 
 using namespace std;
 
-int main()
-{
-	ifstream outputHaikuFile;
-	string haikuLines;
-;
-	outputHaikuFile.open("haiku.txt");
-	cout << "Here is the haiku I wrote!\n";
-	cout << endl;
-	
-	if (outputHaikuFile)
-	{
-		string haikuLines;
-		
-		while (getline(outputHaikuFile, haikuLines)) // This allows the program to read haiku.txt line by line, instead of word for word.
-		{
-			cout << haikuLines << endl;
-		}
-	}
-	else // This is just a safety net to make sure that the user running the .cpp file is able to access the haiku.txt file.
-	{
-		cout << "The file has not been found! Please check your file explorer, and run InputHaiku.cpp again.";
-	}
-	
-	outputHaikuFile.close();	// As always, don't forget to close the file once completed.
-	
-	return 0;	//	return 0 as always.
-}
+//int main()
+//{
+//	ifstream outputHaikuFile;
+//	string haikuLines;
+//;
+//	outputHaikuFile.open("haiku.txt");
+//	cout << "Here is the haiku I wrote!\n";
+//	cout << endl;
+//	
+//	if (outputHaikuFile)
+//	{
+//		string haikuLines;
+//		
+//		while (getline(outputHaikuFile, haikuLines)) // This allows the program to read haiku.txt line by line, instead of word for word.
+//		{
+//			cout << haikuLines << endl;
+//		}
+//	}
+//	else // This is just a safety net to make sure that the user running the .cpp file is able to access the haiku.txt file.
+//	{
+//		cout << "The file has not been found! Please check your file explorer, and run InputHaiku.cpp again.";
+//	}
+//	
+//	outputHaikuFile.close();	// As always, don't forget to close the file once completed.
+//	
+//	return 0;	//	return 0 as always.
+//}

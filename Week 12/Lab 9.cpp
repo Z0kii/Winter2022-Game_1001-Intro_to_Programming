@@ -53,7 +53,7 @@ int main()
 	return 0;
 }
 
-void scoreSorter(double* dynamicArray, int Scores)
+void scoreSorter(double* dynamicArray, int Scores) // The function "scoreSorter" sorts the scores in the array in ascending order.
 {
 	int arraySorter;
 	int minimumIndex;
@@ -77,7 +77,7 @@ void scoreSorter(double* dynamicArray, int Scores)
 	}
 }
 
-double averageCalculator(double* dynamicArray, int numberOfScores)
+double averageCalculator(double* dynamicArray, int numberOfScores) // The function "averageCalculator" simply calculates the average of all array numbers entered.
 {
 	double total{};
 

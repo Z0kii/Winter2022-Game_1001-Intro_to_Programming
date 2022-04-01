@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include <string> // To store the character name
+#include <string>
 #include <stdlib.h>
 #include <time.h>
 using namespace std;
@@ -28,5 +28,3 @@ public:
 		return attack;
 	}
 };;
-
-// reference these throughout your cout statements later on

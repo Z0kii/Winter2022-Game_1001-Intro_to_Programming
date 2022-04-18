@@ -41,5 +41,9 @@ int main()
         }
     } while (month != 0 || year != 0); // Continue looping back for new inputs as long as the inputs for month != 0 and year != 0.
 
+    delete pCalendarTime;
+    pCalendarTime = nullptr;
+
+
     return 0;
 }

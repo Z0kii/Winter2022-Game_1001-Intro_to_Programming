@@ -15,13 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment 2 Main.cpp">
+    <ClCompile Include="Lab Test 4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Weapons.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="Lab 11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
